@@ -5,6 +5,10 @@ const port = 9001;
 
 app.use(express.urlencoded({extended: false}));
 
+const dashboardRouter = require('./routes/dashboard');
+
+app.use('/', dashboardRouter);
+
 
 
 app.listen(port, () => {
