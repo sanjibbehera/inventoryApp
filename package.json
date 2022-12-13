@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/sanjibbehera/inventoryApp#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-es6-template-engine": "^2.2.0",
     "pg-promise": "^10.2.1"
   },
